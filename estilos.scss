@@ -1,0 +1,17 @@
+$color1: #EDE3DB;
+$color2: #F1DC2F;
+$color3: #DE4C51;
+$color4: #16D6D5;
+$color5: #312D39;
+.switch {
+    width: 200px;
+    height: 100px;
+    // border: 1px solid red;
+    border-radius: 40px;
+    box-shadow: inset 4px 4px 5px 3px rgba($color: $color1, $alpha: 0.5), inset -5px -5px 5px 3px rgba($color: $color5, $alpha: 0.5);
+    background-color: $color3;
+    transition: all 0.1s ease;
+    &:active {
+        box-shadow: none;
+    }
+}
